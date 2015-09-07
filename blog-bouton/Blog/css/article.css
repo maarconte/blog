@@ -1,0 +1,135 @@
+html{
+	background: url(../images/wallpaper.jpg) no-repeat center center fixed;
+}
+
+body{
+	font: 16px 'Comfortaa',sans-serif;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+
+.container{
+	margin: 30px auto;
+	width: 600px;
+	background: rgba(135, 217,255, 0.3);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+article{
+	background: #fff;
+	padding: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: justify;
+	margin-top: 10px;
+	position: relative;
+
+}
+
+article:first-child{
+	margin-top: 0;
+}
+
+h1{
+	text-align: center;
+	color: #303f9f;
+	margin:0;
+
+}
+
+header{
+	position: relative;
+	background: #303f9f;
+	height: 70px;
+}
+
+header>a>h1{
+		color: #fff;
+		margin-top: 0;
+		line-height: 70px;
+
+}
+
+input[type='button']{
+
+	position: absolute;
+	display: block;
+	bottom: 10px;
+	right:10px;
+	border: none;
+	width: 160px;
+	height: 30px;
+	background: #3f51b5;
+	color: #fff;
+	margin-top: 10px;
+}
+
+input[type='button']:hover{
+background: #00179E;
+}
+
+textarea{
+	resize:none;
+	margin-top:10px;
+	font-family: 'Comfortaa';
+	width: 417px;
+	padding: 10px;
+	text-align: justify;
+}
+
+input,textarea{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: none;
+
+}
+
+input[type='text']{
+	width: 417px;
+	display: block;
+	font-family: 'Comfortaa';
+	padding: 5px;
+	line-height: 20px;
+}
+
+input[type='submit']{
+	width: 80px;
+	height: 30px;
+	margin: 20px 0 20px 10px;
+	text-align: center;
+	display: block;
+	float: right;
+	border: none;
+	font: 13px 'Comfortaa';
+	background: #303f9f;
+	color: #fff;
+	border-radius: 3px;
+}
+
+form{
+	margin: 0 auto;
+	width: 417px;
+	overflow: hidden;
+}
+
+.annuler{
+    width: 80px;
+	height: 30px;
+	margin: 20px 0 20px 10px;
+	display: block;
+	border: none;
+	font: 13px 'Comfortaa';
+	background: #303f9f;
+	color: #fff;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 30px;
+	float: right;
+}
+
